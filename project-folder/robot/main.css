@@ -1,0 +1,197 @@
+/*font-family: 'Oswald', sans-serif;*/
+.robot{
+	position: relative;
+	left:200px;
+}
+
+.antenna {
+	animation: flash .5s infinite;
+	width: 5px;
+	height: 0;
+	border: 5px solid transparent;
+ 	border-top: 10px solid rgba(253,42,0,1);
+  	border-bottom: 65px solid #AAAAAA;
+  	position: relative;
+  	left: 140px;
+}
+
+.blink {
+	-webkit-animation: blink .5s infinite;
+  	-moz-animation: blink .5s infinite;
+  	animation: blink .5s infinite;
+}
+
+.powerstrip {
+	-webkit-animation: powerstrip 1s infinite;
+  	-moz-animation: powerstrip 1s infinite;
+  	animation: powerstrip 1s infinite;
+ }
+
+.head {
+	background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #AAAAAA;
+	background: -moz-radial-gradient(circle, red 15%, transparent 40%), #AAAAAA;
+	background: radial-gradient(circle, red 15%, transparent 40%), #AAAAAA;
+	background-size: 50% 100%;
+	height: 150px;
+	width: 150px;
+	border-radius: 60px 60px 10px 10px;
+	border-bottom: 40px double #FF4136;
+	position: relative;
+ 	left: 70px;
+}
+
+@keyframes blink {
+	50% {
+		background: radial-gradient(circle, #00E890 15%, transparent 40%), #AAAAAA;
+		background-size: 50% 100%;
+	}
+}
+
+@-webkit-keyframes blink {
+	50% {
+		background: -webkit-radial-gradient(circle, #00E890 15%, transparent 40%), #AAAAAA;
+		background-size: 50% 100%;
+	}
+}
+
+@-moz-keyframes blink {
+	50% {
+		background: -moz-radial-gradient(circle, #00E890 15%, transparent 40%), #AAAAAA;
+		background-size: 50% 100%;
+	}
+}
+
+
+@keyframes powerstrip {
+	50% {
+		background: radial-gradient(circle, #FF0000 15%, transparent 40%)
+	}
+}
+
+@-webkit-keyframes powerstrip {
+	50% {
+		background: -webkit-radial-gradient(circle, #FF0000 15%, transparent 40%)
+	}
+}
+
+@-moz-keyframes powerstrip {
+	50% {
+		background: -moz-radial-gradient(circle, #FF0000 15%, transparent 40%)
+	}
+}
+
+@keyframes flash {
+	25% {
+		border-top: 10px solid rgba(253,42,0,.5);
+	}
+	50% {
+		border-top: 10px solid rgba(253,42,0,.2);
+	}
+}
+
+
+.torso {
+	height: 0;
+	width: 140px;
+	border-top: 300px solid #00A2DA;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-radius: 50px 50px 100px 100px;
+}
+
+
+.left {
+	font-family: 'Oswald', sans-serif, verdana, arial;
+	font-weight: bold;
+	font-size: 250px;
+	color: #AAAAAA;
+	transform: rotate(200deg);
+	-webkit-transform: rotate(200deg);
+	-moz-transform: rotate(200deg);
+	position: relative;
+	left: -190px;
+	top: -350px;
+	z-index: -1;
+}
+
+.right {
+	font-family: 'Oswald', sans-serif, verdana, arial;
+	font-weight: bold;
+	font-size: 250px;
+	color: #AAAAAA;
+	transform: scaleY(-1) rotate(20deg);
+	-webkit-transform: scaleY(-1) rotate(20deg);
+	-moz-transform: scaleY(-1) rotate(20deg);
+	position: relative;
+	left: 190px;
+	top: -720px;
+	z-index: -1;
+}
+
+.light{
+	height: 40px;
+	width: 40px;
+	border-radius: 30px;
+	border: 15px solid #FF4136;
+	position: relative;
+  	z-index: 2;
+  	top: -1000px;
+  	left: 35px;
+  	background: radial-gradient(circle, white 15%, transparent 40%), #AAAAAA;
+}
+
+.light2 {
+	height: 40px;
+	width: 40px;
+	border-radius: 30px;
+	border: 15px solid#FF4136;
+	position: relative;
+  	z-index: 2;
+  	top: -985px;
+  	left: 35px;
+  	background: radial-gradient(circle, white 15%, transparent 40%), #AAAAAA;
+}
+
+.light3 {
+
+	height: 40px;
+	width: 40px;
+	border-radius: 30px;
+	border: 15px solid #FF4136;
+	position: relative;
+  	z-index: 2;
+  	top: -970px;
+  	left: 35px;
+  	background: radial-gradient(circle, white 15%, transparent 40%), #AAAAAA;
+}
+
+.left-foot {
+	font-family: 'Oswald', sans-serif, verdana, arial;
+	font-weight: bold;
+	font-size: 250px;
+	color: #AAAAAA;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	position: relative;
+	left: -80px;
+	top: -1055px;
+	z-index: -1;
+}
+
+.right-foot {
+	font-family: 'Oswald', sans-serif, verdana, arial;
+	font-weight: bold;
+	font-size: 250px;
+	color: #AAAAAA;
+	transform: scaleY(-1) rotate(-2deg);
+	-webkit-transform: scaleY(-1) rotate(-2deg);
+	-moz-transform: scaleY(-1) rotate(-2deg);
+	position: relative;
+	left: 85px;
+	top: -1425px;
+	z-index: -1;
+}
+
+
+

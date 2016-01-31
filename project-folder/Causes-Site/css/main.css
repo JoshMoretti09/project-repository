@@ -1,0 +1,248 @@
+/*Fonts to use
+font-family: 'Shadows Into Light', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poiret One', cursive;*/
+
+
+body {
+	background-color: #DDDDDD;
+}
+
+/*Nav styling below*/
+
+nav ul {
+	list-style: none;
+	margin:0 10px;
+	padding: 1em;
+	float: right;
+}
+
+nav li {
+	display:inline-block;
+	padding: 1em;
+}
+
+/*Header Styling*/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	width: 100%;
+	text-align: center;
+	background: #001f3f;
+	border-bottom: 5px solid black;
+}
+
+.logo::first-letter {
+	font-size: 50px;
+}
+
+.logo {
+	float: left;
+	padding: 10px;
+	color: #FF851B;
+	margin-left: 10px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #FF851B;
+}
+a:hover{
+	color: #0000FF;
+}
+
+.selected {
+	color: white;
+}
+
+/*Home Page Styling*/
+
+#imgcontainer {
+	background-image: url("../img/catdog.jpg");
+	width: 666px;
+	height: 500px;
+	border-radius: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+
+}
+
+.title1 {
+	text-align: center;
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#subtitle1 {
+	padding-bottom: 1em;
+	margin: 0 auto;
+	text-align: center;
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#colwrapper {
+	width: 900px;
+	margin: 0 auto;
+	border-top: 5px solid black;
+	/*width: 95%;
+	padding: 1em;
+	margin: 1em auto; 
+	-webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;*/
+}
+
+#leftcol {
+	width: 260px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 260px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#rightcol {
+	width: 260px;
+	padding: 5px 15px;
+	float: left;
+}
+
+.dog, .featuredPage img {
+	border-radius: 50px;
+}
+
+#leftcol h2, #middle h2, #rightcol h2, #bottomHomepage h1, #title2 {
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#leftcol p, #middle p, #rightcol p, #bottomHomepage p, .featuredText,  .featuredPage p {
+	color: #001f3f;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.featuredPage h4 {
+	color: #001f3f;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#title2 {
+	clear: both;
+	text-align: center;
+}
+
+#bottomHomepage {
+	clear: both;
+	margin: 0 auto;
+	margin-top: 2em;
+	text-align: center;
+	width: 50%;
+	-webkit-column-count: 2;
+    -moz-column-count: 2; 
+    column-count: 2;
+}
+
+#newsletter span{
+	padding: 1em;
+}
+
+/*Featured Pet Page Styling*/
+.featuredPage {
+	padding: 1em;
+	margin: 0 auto;
+	width: 80%;
+	-webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+}
+
+#pageBreak {
+	margin-right: 50px;
+	margin-left:50px;
+	border-top: 5px solid black;
+}
+
+/*Tips Page Styling*/
+#contentWrapper {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #001f3f;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-bottom: 1em;
+}
+
+#contentWrapper ul li {
+	padding: .5em;
+	list-style: none;
+}
+
+/*contact page styling*/
+
+#contactUs {
+	float: left;
+	padding-left: 30%;
+	color: #FF851B;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contactUs input, textarea {
+	margin: 10px;
+}
+
+#contactUs2 {
+	float: left;
+	padding-left: 100px;
+	color: #FF851B;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bottomLinks h3 {
+	color: #FF851B;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#pscpa {
+	clear: both;
+	padding-left: 35%;
+	padding-top: 20px;
+}
+
+#contactWrapper {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding-left: 35%;
+    margin-top: 25px;
+    min-width: 250px;
+    margin-right: 110px;
+}
+
+/*#rescue {
+	margin: 0 auto;
+}*/
+
+/*Footer Styling*/
+
+footer {
+	clear: both;
+	background-color: #001f3f;
+	border-top: 3px solid black;
+	text-align: center;
+	color: #FF851B;
+	padding-bottom: 2em;
+	font-family: 'Open Sans', sans-serif;
+}

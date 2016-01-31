@@ -1,0 +1,107 @@
+body {
+    background: url('../img/bkg3.jpg');
+}
+
+#titleHeader {
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+    border-bottom: 1px solid black;
+}
+
+#example-title {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+/*Stlying for the content*/
+
+#article-section1, #article-section2 {
+    padding: 1em 1em 2em 1em;
+    border: 5px solid black;
+    border-radius: 2em;
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Handlee', cursive;
+    -webkit-column-count: 2;
+    -moz-column-count: 2; 
+    column-count: 2;
+}
+
+
+footer {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	padding-right: 2em;
+    border-top: 1px solid black;
+    clear: both;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.homepage-img {
+    width: 60%;
+   float: left;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 1em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.facebook-img {
+    position: fixed;
+    bottom: 200px;
+    width: 10%;
+}
+
+span {
+    position: fixed;
+    bottom: 160px;
+    width: 10%;
+    left: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.example {
+    display: inline-block;
+    width: 40%;
+    margin: 1em 2em;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Shadows Into Light', cursive;
+    float: right;
+}
+
+#meme {
+    width: 35%;
+    float: left;
+}

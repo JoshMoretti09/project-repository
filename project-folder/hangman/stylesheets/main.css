@@ -1,0 +1,53 @@
+body {
+  font: normal 40px Helvetica;
+  text-align: center;
+  background-color: #F7F9F9; }
+
+h2 {
+  color: #0000CC; }
+
+.word {
+  color: #CC00CC;
+  margin-bottom: 40px;
+  overflow: auto;
+  display: inline-block; }
+  .word span {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left; }
+
+.alphabet {
+  color: #0000CC; }
+  .alphabet span {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 auto;
+    transition: all 1s; }
+    .alphabet span:hover, .alphabet span:active {
+      background-color: rgba(0, 255, 153, 0.2);
+      cursor: pointer; }
+
+span {
+  margin-right: 20px;
+  text-transform: uppercase;
+  line-height: 100px; }
+  span:last-child {
+    margin-right: 0; }
+
+.missed-letter {
+  background-color: red; }
+
+.correct-letter {
+  background-color: #00FF99; }
+
+.loser {
+  color: red; }
+
+.win {
+  width: 500px; }
+
+/*# sourceMappingURL=main.css.map */
